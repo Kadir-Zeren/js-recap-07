@@ -102,20 +102,136 @@
 // console.log(colors.slice(-2, 1));
 // console.log(colors.slice(-3, -1));
 
-const colors = ["Red", "Green"];
-console.log(colors.length);
+// const colors = ["Red", "Green"];
+// console.log(colors.length);
 
-let c = "White";
+// let c = "White";
 
-colors.push("Blue", 2023, c);
-colors.push(2023);
+// colors.push("Blue", 2023, c);
+// colors.push(2023);
 
-console.log(colors.length);
+// console.log(colors.length);
 
-const car = ["Audi", "BMW"];
-const car2 = ["Ford", "Tesla", "Mercedes"];
+// const car = ["Audi", "BMW"];
+// const car2 = ["Ford", "Tesla", "Mercedes"];
 
-car.push(car2);
-car.push(...car2);
+// car.push(car2);
+// car.push(...car2);
 
-console.log(car[2][2]);
+// console.log(car[2][2]);
+
+// const car = ["Audi", "BMW"];
+
+// console.log(car.pop());
+
+// const silinen = car.pop();
+// console.log(silinen);
+
+// const colors = ["Green", "Blue"];
+
+// console.log(colors.unshift("Red"));
+// console.log(colors);
+
+// const car = ["Audi", "BMW"];
+// const car2 = ["Ford", "Tesla", "Mercedes"];
+
+// car.unshift(...car2);
+// console.log(car);
+
+// const colors = ["Red", "Green", "Blue", "Yellow", "Brown"];
+
+// console.log(colors.shift());
+
+// console.log(colors);
+
+// const colors = ["Red", "Green", "Blue", "Yellow", "Brown"];
+
+// console.log(colors.splice(2, 1));
+// console.log(colors.splice(2));
+
+// console.log(colors);
+
+// console.log(colors.splice(2, 0, "White"));
+// console.log(colors);
+
+// console.log(colors.splice(3, 1, "Pink"));
+// console.log(colors.splice(3, 2, "Pink", "Black"));
+
+// console.log(colors);
+
+// let color1 = ["red", "green"];
+// const color2 = ["blue", "orange"];
+// const color3 = [10, true];
+
+// const joinedArray = color1.concat(color2, color3);
+// console.log(color1);
+// const destr = color1.push(...color2, ...color3);
+// console.log(color1);
+
+// color1 = color1.concat("Black", color2, 2);
+// console.log(color1);
+
+// const colors = ["Red", "Green", "Blue", "Brown", "Green"];
+// console.log(colors.indexOf("Green"));
+// console.log(colors.indexOf("Green", 3));
+// console.log(colors.indexOf("reen"));
+// console.log(colors.lastIndexOf("Green"));
+// console.log(colors.lastIndexOf("Green", -2));
+// console.log(colors.lastIndexOf("Green", 3));
+// console.log(colors.lastIndexOf("green"));
+
+// console.log(colors[colors.indexOf("Green")]);
+
+// const colors = ["Red", "Green", "Blue", "Green", "Brown", "yellow"];
+// colors.reverse();
+// console.log(colors);
+
+// const arr = ["C", "l", "a", "r", "u", "s", "w", "a", "y"];
+
+// console.log(arr.join());
+// console.log(arr.join(""));
+// console.log(arr.join("-"));
+// console.log(arr);
+
+//  const arr = [ 55, 5, 22, 2, 11, 1, 111 ]
+// arr.sort()
+// console.log(arr)
+
+// // ascending sorting
+// arr.sort((a,b) => a-b)
+// console.log(arr) // [ 1, 2, 5, 11, 22, 55, 111 ]
+
+// // descending sorting
+// arr.sort((a,b) => b-a) //numeritik olarak sıralar
+// console.log(arr) // [ 111, 55, 22, 11, 5,  2,  1 ]
+
+//includes
+/* const arr = [ 'red', 'blue', 'Purple', "white", "orange" ]
+
+console.log(arr.includes('blue')) // true
+
+console.log(arr.includes('Blue')) // false
+
+console.log(arr.includes('blue', 2)) // false */
+
+//Nested Arrays
+
+// const arr = [1, true, [6, 7, 8], [3, 'Red', 5] ]
+// arr.sort()
+// arr[2].splice(1,1,'yellow')
+// console.log(arr.length)
+
+// console.log(arr[0]) // 1
+
+// console.log(arr[2]) // [3, 'Red', 5]
+// console.log(arr[3]) // [6, 7, 8]
+
+// console.log(arr[2][0]) // 3
+// console.log(arr[2][1]) // Red
+// console.log(arr[2][2]) // 5
+
+// console.log(arr[3][2]) //8
+
+const arr = ["Red", "Green", , , , , "Blue"];
+
+console.log(arr);
